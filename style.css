@@ -101,7 +101,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 .quote p{
     width: 700px;
@@ -152,4 +153,11 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 
+}
+footer{
+    background-color: #1f2937;
+    margin-top: 50px;
+    padding: 45px;
+    text-align: center;
+    color: #E5E7Eb;
 }
