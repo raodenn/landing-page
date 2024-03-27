@@ -31,7 +31,7 @@ body{
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 50px;
 }
 .hero-text{
@@ -63,4 +63,33 @@ body{
     width: 100px;
     border: 0;
     font-size: 18px;
+}
+#mid-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.card-content{
+    border: solid #3882f6;
+    height: 150px;
+    
+    border-radius: 15px;
+}
+.card-text{
+
 }
